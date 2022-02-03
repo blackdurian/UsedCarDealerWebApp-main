@@ -13,8 +13,8 @@ public class TransferBasket
 {
     private readonly string _nonexistentAnonymousBasketBuyerId = "nonexistent-anonymous-basket-buyer-id";
     private readonly string _existentAnonymousBasketBuyerId = "existent-anonymous-basket-buyer-id";
-    private readonly string _nonexistentUserBasketBuyerId = "newuser@microsoft.com";
-    private readonly string _existentUserBasketBuyerId = "testuser@microsoft.com";
+    private readonly string _nonexistentUserBasketBuyerId = "newuser@myusedcar.com";
+    private readonly string _existentUserBasketBuyerId = "testuser@myusedcar.com";
     private readonly Mock<IRepository<Basket>> _mockBasketRepo = new();
 
     [Fact]
