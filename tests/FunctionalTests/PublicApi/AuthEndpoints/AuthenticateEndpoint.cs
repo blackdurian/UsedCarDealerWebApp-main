@@ -22,9 +22,9 @@
 //    public HttpClient Client { get; }
 
 //    [Theory]
-//    [InlineData("demouser@microsoft.com", AuthorizationConstants.DEFAULT_PASSWORD, true)]
-//    [InlineData("demouser@microsoft.com", "badpassword", false)]
-//    [InlineData("baduser@microsoft.com", "badpassword", false)]
+//    [InlineData("demouser@myusedcar.com", AuthorizationConstants.DEFAULT_PASSWORD, true)]
+//    [InlineData("demouser@myusedcar.com", "badpassword", false)]
+//    [InlineData("baduser@myusedcar.com", "badpassword", false)]
 //    public async Task ReturnsExpectedResultGivenCredentials(string testUsername, string testPassword, bool expectedResult)
 //    {
 //        var request = new AuthenticateRequest()
