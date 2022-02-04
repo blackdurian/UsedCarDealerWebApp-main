@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  UsedCarDealerWebmvc:
-    image: ${DOCKER_REGISTRY-}UsedCarDealerWebmvc
+  usedcardealerwebmvc:
+    image: ${DOCKER_REGISTRY-}usedcardealerwebmvc
     build:
       context: .
       dockerfile: src/Web/Dockerfile
