@@ -61,10 +61,10 @@ public class CatalogContextSeed
     {
         return new List<CatalogBrand>
             {
-                new("Azure"),
-                new(".NET"),
-                new("Visual Studio"),
-                new("SQL Server"),
+                new("Honda"),
+                new("Toyota"),
+                new("Perodua"),
+                new("Mercedes Benz"),
                 new("Other")
             };
     }
@@ -73,10 +73,10 @@ public class CatalogContextSeed
     {
         return new List<CatalogType>
             {
-                new("Mug"),
-                new("T-Shirt"),
-                new("Sheet"),
-                new("USB Memory Stick")
+                new("Sedan"),
+                new("SUV"),
+                new("Coupe"),
+                new("Other")
             };
     }
 
@@ -84,18 +84,18 @@ public class CatalogContextSeed
     {
         return new List<CatalogItem>
             {
-                new(2,2, ".NET Bot Black Sweatshirt", ".NET Bot Black Sweatshirt", 19.5M,  "http://catalogbaseurltobereplaced/images/products/1.png"),
-                new(1,2, ".NET Black & White Mug", ".NET Black & White Mug", 8.50M, "http://catalogbaseurltobereplaced/images/products/2.png"),
-                new(2,5, "Prism White T-Shirt", "Prism White T-Shirt", 12,  "http://catalogbaseurltobereplaced/images/products/3.png"),
-                new(2,2, ".NET Foundation Sweatshirt", ".NET Foundation Sweatshirt", 12, "http://catalogbaseurltobereplaced/images/products/4.png"),
-                new(3,5, "Roslyn Red Sheet", "Roslyn Red Sheet", 8.5M, "http://catalogbaseurltobereplaced/images/products/5.png"),
-                new(2,2, ".NET Blue Sweatshirt", ".NET Blue Sweatshirt", 12, "http://catalogbaseurltobereplaced/images/products/6.png"),
-                new(2,5, "Roslyn Red T-Shirt", "Roslyn Red T-Shirt",  12, "http://catalogbaseurltobereplaced/images/products/7.png"),
-                new(2,5, "Kudu Purple Sweatshirt", "Kudu Purple Sweatshirt", 8.5M, "http://catalogbaseurltobereplaced/images/products/8.png"),
-                new(1,5, "Cup<T> White Mug", "Cup<T> White Mug", 12, "http://catalogbaseurltobereplaced/images/products/9.png"),
-                new(3,2, ".NET Foundation Sheet", ".NET Foundation Sheet", 12, "http://catalogbaseurltobereplaced/images/products/10.png"),
-                new(3,2, "Cup<T> Sheet", "Cup<T> Sheet", 8.5M, "http://catalogbaseurltobereplaced/images/products/11.png"),
-                new(2,5, "Prism White TShirt", "Prism White TShirt", 12, "http://catalogbaseurltobereplaced/images/products/12.png")
+                new(1,1, "2016, Black, 30k mileages", "Honda City", 60000,  "http://catalogbaseurltobereplaced/images/products/1.png"),
+                new(1,1, "2018, White, 20k mileages", "Honda Civic", 90000, "http://catalogbaseurltobereplaced/images/products/2.png"),
+                new(1,2, "2019, Red, 10k mileages", "Toyota Vios", 70000,  "http://catalogbaseurltobereplaced/images/products/3.png"),
+                new(1,2, "2019, White, 10k mileages", "Toyota Altis", 80000, "http://catalogbaseurltobereplaced/images/products/4.png"),
+                new(4,3, "2021, Red, 4k mileages", "Perodua Myvi", 40000, "http://catalogbaseurltobereplaced/images/products/5.png"),
+                new(2,3, "2018, White, 10k mileages", "Perodua Ativa", 40000, "http://catalogbaseurltobereplaced/images/products/6.png"),
+                new(2,3, "2019, Silver, 20k mileages", "Perodua Aruz",  50000, "http://catalogbaseurltobereplaced/images/products/7.png"),
+                new(1,4, "2018, Grey, 40k mileages", "Mercedes Benz C200", 150000, "http://catalogbaseurltobereplaced/images/products/8.png"),
+                new(1,5, "2020, Orange, 30k mileages", "BMW 3 Series", 160000, "http://catalogbaseurltobereplaced/images/products/9.png"),
+                new(2,5, "2018, Red, 30k mileages", "Mazda CX-5", 120000, "http://catalogbaseurltobereplaced/images/products/10.png"),
+                new(1,2, "2019, White, 20k mileages", "Toyota Camry", 110000, "http://catalogbaseurltobereplaced/images/products/11.png"),
+                new(1,1, "2020, Red, 10k mileages", "Honda Accord", 120000, "http://catalogbaseurltobereplaced/images/products/12.png")
             };
     }
 }
