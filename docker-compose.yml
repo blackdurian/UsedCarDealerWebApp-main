@@ -8,8 +8,8 @@ services:
       dockerfile: src/Web/Dockerfile
     depends_on:
       - "sqlserver"
-  eshoppublicapi:
-    image: ${DOCKER_REGISTRY-}eshoppublicapi
+  usedcardealerpublicapi:
+    image: ${DOCKER_REGISTRY-}usedcardealerpublicapi
     build:
       context: .
       dockerfile: src/PublicApi/Dockerfile
