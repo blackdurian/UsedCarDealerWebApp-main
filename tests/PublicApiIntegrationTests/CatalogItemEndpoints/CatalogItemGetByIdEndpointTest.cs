@@ -18,7 +18,7 @@ namespace PublicApiIntegrationTests.CatalogItemEndpoints
             var model = stringResponse.FromJson<GetByIdCatalogItemResponse>();
 
             Assert.AreEqual(5, model.CatalogItem.Id);
-            Assert.AreEqual("Roslyn Red Sheet", model.CatalogItem.Name);
+            Assert.AreEqual("Perodua Myvi", model.CatalogItem.Name);
         }
 
         [TestMethod]
